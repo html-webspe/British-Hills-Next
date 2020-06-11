@@ -9,11 +9,23 @@
 
    &__body {
       padding-top: 160px;
+
+      @media (min-width:$md3+px) {
+         display: flex;
+         align-items: center;
+         padding-top: 215px;
+      }
    }
 
    &__content {
       @media (max-width:$md3+px) {
          margin-bottom: 30px;
+
+      }
+
+      @media (min-width:$md2+px) {
+         max-width: 627px;
+         margin-right: 30px;
       }
    }
 
@@ -50,8 +62,7 @@
    &__botton {
       display: flex;
 
-
-      @media (max-width:$md3+px) {
+      @media (max-width:1400px) {
          align-items: flex-start;
          flex-direction: column;
       }
@@ -65,26 +76,34 @@
          height: 40px;
          line-height: 40px;
 
-         @media (max-width:$md3+px) {
+
+         @media (min-width:$md3+px) {
+            height: 60px;
+            line-height: 60px;
+            padding: 0px 52px 0px 52px;
+         }
+
+         @media (min-width:1200px) {
+            height: 75px;
+            line-height: 75px;
+         }
+
+         @media (max-width:1400px) {
             margin-top: 18px;
          }
 
-         @media (min-width:$md2+px) {
-            padding: 0px 55px 0px 55px;
-            line-height: 75px;
-            height: 75px;
-            margin-left: 30px;
+         @media (min-width:1400px) {
+            margin-left: 18px;
          }
       }
    }
-
-   &__image {}
 }
 
-.container {}
+.webp .intro {
+   background-image: url(../img/intro/intro-bg.webp);
+}
 
-.accent {}
-
-.btn {}
-
-.btn-red {}
+.horizon .intro-body {
+   padding-top: 190px;
+   padding-bottom: 50px;
+}

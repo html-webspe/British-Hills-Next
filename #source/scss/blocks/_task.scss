@@ -18,12 +18,17 @@
    align-items: center;
    max-width: 316px;
    text-align: center;
-   box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
+
    padding: 20px 10px 30px 10px;
    margin: 10px 10px 39px 10px;
 
-   &:last-child {
-      margin-bottom: 0;
+
+   @media (max-width:$md4+px) {
+      &:last-child {
+         margin-bottom: 0;
+      }
+
+      box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
    }
 
    @media (min-width:$md2+px) {

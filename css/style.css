@@ -635,9 +635,22 @@ textarea.input {
   padding-bottom: 50px; }
   .intro__body {
     padding-top: 160px; }
+    @media (min-width: 767.98px) {
+      .intro__body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 215px; } }
   @media (max-width: 767.98px) {
     .intro__content {
       margin-bottom: 30px; } }
+  @media (min-width: 992.98px) {
+    .intro__content {
+      max-width: 627px;
+      margin-right: 30px; } }
   .intro__heading {
     color: #01011b;
     margin-bottom: 18px;
@@ -672,7 +685,7 @@ textarea.input {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    @media (max-width: 767.98px) {
+    @media (max-width: 1400px) {
       .intro__botton {
         -webkit-box-align: start;
         -ms-flex-align: start;
@@ -688,15 +701,28 @@ textarea.input {
       padding: 0px 35px 0px 35px;
       height: 40px;
       line-height: 40px; }
-      @media (max-width: 767.98px) {
+      @media (min-width: 767.98px) {
+        .intro__botton span {
+          height: 60px;
+          line-height: 60px;
+          padding: 0px 52px 0px 52px; } }
+      @media (min-width: 1200px) {
+        .intro__botton span {
+          height: 75px;
+          line-height: 75px; } }
+      @media (max-width: 1400px) {
         .intro__botton span {
           margin-top: 18px; } }
-      @media (min-width: 992.98px) {
+      @media (min-width: 1400px) {
         .intro__botton span {
-          padding: 0px 55px 0px 55px;
-          line-height: 75px;
-          height: 75px;
-          margin-left: 30px; } }
+          margin-left: 18px; } }
+
+.webp .intro {
+  background-image: url(../img/intro/intro-bg.webp); }
+
+.horizon .intro-body {
+  padding-top: 190px;
+  padding-bottom: 50px; }
 
 .task-body {
   display: -webkit-box;
@@ -730,12 +756,14 @@ textarea.input {
   align-items: center;
   max-width: 316px;
   text-align: center;
-  -webkit-box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
-  box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
   padding: 20px 10px 30px 10px;
   margin: 10px 10px 39px 10px; }
-  .item-task:last-child {
-    margin-bottom: 0; }
+  @media (max-width: 576.98px) {
+    .item-task {
+      -webkit-box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
+      box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19); }
+      .item-task:last-child {
+        margin-bottom: 0; } }
   @media (min-width: 992.98px) {
     .item-task {
       margin-bottom: 109px; } }
