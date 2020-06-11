@@ -1,7 +1,15 @@
 .task-body {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
    flex-wrap: wrap;
+
+   @media (min-width:$md3+px) {
+      justify-content: space-around;
+   }
+
+   @media (min-width:1200px) {
+      justify-content: space-between;
+   }
 }
 
 .item-task {
@@ -10,7 +18,9 @@
    align-items: center;
    max-width: 316px;
    text-align: center;
-   margin-bottom: 39px;
+   box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
+   padding: 20px 10px 30px 10px;
+   margin: 10px 10px 39px 10px;
 
    &:last-child {
       margin-bottom: 0;

@@ -40,15 +40,31 @@
       flex: 0 1 33.33%;
    }
 
+   @media (max-width:$md2+px) {
+      margin-bottom: 35px;
+   }
+
    &__head {
       display: flex;
-      margin-bottom: 66px;
-      justify-content: center;
+      margin-bottom: 30px;
       padding-top: 29px;
+
+      @media (max-width:$md2+px) {
+         padding-left: 33px;
+      }
+
+      @media (min-width:$md3+px) {
+         justify-content: center;
+         margin-bottom: 66px;
+      }
    }
 
    &__head-icon {
       margin-right: 27px;
+
+      @media (max-width:$md3+px) {
+         width: 80px;
+      }
    }
 
    &__head-content {
@@ -59,7 +75,7 @@
 
    &__head-name {
       color: #c9c9c9;
-      @include adaptiv-font(30, 14);
+      @include adaptiv-font(30, 18);
       font-weight: 900;
       text-transform: uppercase;
       position: relative;
@@ -79,7 +95,7 @@
 
    &__price {
       color: #000000;
-      @include adaptiv-font(36, 16);
+      @include adaptiv-font(36, 20);
       font-weight: 900;
    }
 
@@ -103,6 +119,7 @@
       display: flex;
       align-items: flex-start;
       margin-bottom: 20px;
+
 
 
       @media (min-width:1200px) {
@@ -130,6 +147,12 @@
       font-weight: 900;
       text-transform: uppercase;
       box-shadow: 6px 10px 17px 1px rgba(0, 46, 159, 0.3);
+
+      @media (max-width:$md4+px) {
+         padding: 0px 40px 0px 40px;
+         height: 40px;
+         line-height: 40px;
+      }
    }
 }
 

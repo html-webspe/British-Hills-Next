@@ -33,7 +33,7 @@ body {
   font-family: Gilroy;
   @include adaptiv-font(20, 12);
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.3;
 
   &.lock {
     overflow: hidden;

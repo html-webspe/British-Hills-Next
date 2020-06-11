@@ -97,7 +97,7 @@ body {
   color: #000000;
   font-family: Gilroy;
   font-weight: 500;
-  line-height: 1.2; }
+  line-height: 1.3; }
   @media (max-width: 767.98px) {
     body {
       font-size: calc(12px + 13.6*((100vw - 320px) / 1940)); } }
@@ -510,10 +510,16 @@ textarea.input {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -8px;
-    margin-top: -14px;
-    border: 14px solid transparent;
-    border-left: 20px solid #3fa9e9; }
+    margin-left: -3px;
+    margin-top: -7px;
+    border: 8px solid transparent;
+    border-left: 13px solid #3fa9e9; }
+    @media (min-width: 992.98px) {
+      .teacher-play-btn:after {
+        margin-left: -8px;
+        margin-top: -14px;
+        border: 14px solid transparent;
+        border-left: 20px solid #3fa9e9; } }
 
 .close-video {
   position: absolute;
@@ -696,11 +702,20 @@ textarea.input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+  @media (min-width: 767.98px) {
+    .task-body {
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
+  @media (min-width: 1200px) {
+    .task-body {
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; } }
 
 .item-task {
   display: -webkit-box;
@@ -715,7 +730,10 @@ textarea.input {
   align-items: center;
   max-width: 316px;
   text-align: center;
-  margin-bottom: 39px; }
+  -webkit-box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
+  box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
+  padding: 20px 10px 30px 10px;
+  margin: 10px 10px 39px 10px; }
   .item-task:last-child {
     margin-bottom: 0; }
   @media (min-width: 992.98px) {
@@ -859,8 +877,12 @@ textarea.input {
     .teacher .section-head {
       margin-bottom: 86px; } }
   .teacher__video {
-    -webkit-box-shadow: 0 24px 60px 2px rgba(97, 97, 97, 0.46);
-    box-shadow: 0 24px 60px 2px rgba(97, 97, 97, 0.46); }
+    -webkit-box-shadow: 0 7px 19px 2px rgba(97, 97, 97, 0.4);
+    box-shadow: 0 7px 19px 2px rgba(97, 97, 97, 0.4); }
+    @media (min-width: 992.98px) {
+      .teacher__video {
+        -webkit-box-shadow: 0 24px 60px 2px rgba(97, 97, 97, 0.46);
+        box-shadow: 0 24px 60px 2px rgba(97, 97, 97, 0.46); } }
   .teacher__video-overlay {
     position: absolute;
     background: url(../img/teacher/teacher-video-overlay.png) 0 0 no-repeat;
@@ -934,7 +956,10 @@ textarea.input {
   background-size: contain;
   background-repeat: no-repeat; }
   .schedule__head {
-    margin-bottom: 87px; }
+    margin-bottom: 27px; }
+    @media (min-width: 767.98px) {
+      .schedule__head {
+        margin-bottom: 87px; } }
   @media (max-width: 767.98px) {
     .schedule__text {
       margin-bottom: 26px; } }
@@ -953,6 +978,9 @@ textarea.input {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
+  @media (min-width: 600px) {
+    .schedule-body {
+      padding: 0 10px; } }
 
 .item-schedule {
   -webkit-box-flex: 0;
@@ -970,12 +998,33 @@ textarea.input {
   background-image: url(../img/schedule/schedule-item-bg.jpg);
   background-position: bottom right;
   background-repeat: no-repeat; }
+  @media (max-width: 767.98px) {
+    .item-schedule {
+      background-size: 24%; } }
+  @media (min-width: 600px) {
+    .item-schedule {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+      flex: 0 1 45%;
+      width: 45%; } }
+  @media (min-width: 992.98px) {
+    .item-schedule {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 1 23%;
+      flex: 0 1 23%;
+      width: 23%; } }
   .item-schedule__icon {
     margin-bottom: 12px;
     margin-left: -33px; }
   .item-schedule__date {
     color: #000000;
     line-height: 36px; }
+    @media (max-width: 767.98px) {
+      .item-schedule__date {
+        font-size: calc(16px + 6.8*((100vw - 320px) / 1940)); } }
+    @media (min-width: 767.98px) {
+      .item-schedule__date {
+        font-size: calc(16px + 4*(100vw / 1940)); } }
 
 .webp .item-schedule {
   background-image: url(../img/schedule/schedule-item-bg.webp); }
@@ -1023,17 +1072,29 @@ textarea.input {
       -webkit-box-flex: 0;
       -ms-flex: 0 1 33.33%;
       flex: 0 1 33.33%; } }
+  @media (max-width: 992.98px) {
+    .item-level {
+      margin-bottom: 35px; } }
   .item-level__head {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 66px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    margin-bottom: 30px;
     padding-top: 29px; }
+    @media (max-width: 992.98px) {
+      .item-level__head {
+        padding-left: 33px; } }
+    @media (min-width: 767.98px) {
+      .item-level__head {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 66px; } }
   .item-level__head-icon {
     margin-right: 27px; }
+    @media (max-width: 767.98px) {
+      .item-level__head-icon {
+        width: 80px; } }
   .item-level__head-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1054,10 +1115,10 @@ textarea.input {
     margin-bottom: 43px; }
     @media (max-width: 767.98px) {
       .item-level__head-name {
-        font-size: calc(14px + 27.2*((100vw - 320px) / 1940)); } }
+        font-size: calc(18px + 20.4*((100vw - 320px) / 1940)); } }
     @media (min-width: 767.98px) {
       .item-level__head-name {
-        font-size: calc(14px + 16*(100vw / 1940)); } }
+        font-size: calc(18px + 12*(100vw / 1940)); } }
     .item-level__head-name:after {
       content: '';
       position: absolute;
@@ -1071,10 +1132,10 @@ textarea.input {
     font-weight: 900; }
     @media (max-width: 767.98px) {
       .item-level__price {
-        font-size: calc(16px + 34*((100vw - 320px) / 1940)); } }
+        font-size: calc(20px + 27.2*((100vw - 320px) / 1940)); } }
     @media (min-width: 767.98px) {
       .item-level__price {
-        font-size: calc(16px + 20*(100vw / 1940)); } }
+        font-size: calc(20px + 16*(100vw / 1940)); } }
   .item-level__body {
     padding: 0px 16px 0px 33px;
     -webkit-box-flex: 1;
@@ -1125,6 +1186,11 @@ textarea.input {
     @media (min-width: 767.98px) {
       .item-level__btn {
         font-size: calc(12px + 6*(100vw / 1940)); } }
+    @media (max-width: 576.98px) {
+      .item-level__btn {
+        padding: 0px 40px 0px 40px;
+        height: 40px;
+        line-height: 40px; } }
 
 .item-level__left .item-level__bottom {
   background-color: #6744dd; }

@@ -6,8 +6,11 @@
    background-repeat: no-repeat;
 
    &__head {
-      margin-bottom: 87px;
+      margin-bottom: 27px;
 
+      @media (min-width:$md3+px) {
+         margin-bottom: 87px;
+      }
    }
 
    &__text {
@@ -31,6 +34,10 @@
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+
+   @media (min-width:600px) {
+      padding: 0 10px;
+   }
 }
 
 .item-schedule {
@@ -47,7 +54,19 @@
    background-position: bottom right;
    background-repeat: no-repeat;
 
-   @media (max-width:$md3+px) {}
+   @media (max-width:$md3+px) {
+      background-size: 24%;
+   }
+
+   @media (min-width:600px) {
+      flex: 0 1 45%;
+      width: 45%;
+   }
+
+   @media (min-width:$md2+px) {
+      flex: 0 1 23%;
+      width: 23%;
+   }
 
    &__icon {
       margin-bottom: 12px;
@@ -57,6 +76,7 @@
    &__date {
       color: #000000;
       line-height: 36px;
+      @include adaptiv-font(20, 16);
    }
 }
 
