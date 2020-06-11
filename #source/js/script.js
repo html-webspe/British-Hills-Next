@@ -56,6 +56,16 @@ mql.addListener(function (m) {
 });
 
 //====================  Video  ========================//
+
+$('.play-btn').click(function () {
+	let dataVideo = $(this).closest('.video').attr('data-video');
+
+	$(this)
+		.closest('.video')
+		.html('<iframe src="https://www.youtube.com/embed/' + dataVideo + '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+});
+
+/*
 $('.play-btn').click(function (e) {
 	e.preventDefault();
 	$(this).parent().find('.teacher__video-overlay').fadeOut();
@@ -68,7 +78,7 @@ $('.close-video').click(function () {
 	$(this).parent().find('video').fadeOut();
 	$(this).parent().find('.teacher__video-overlay, .').fadeIn();
 	$(this).css("opacity", "0");
-})
+})*/
 //====================  <!-- Video -->  ========================//
 $('form').submit(function (e) {
 	e.preventDefault();
@@ -87,11 +97,32 @@ $('form').submit(function (e) {
 	})
 });
 //========================================================//
-/*
-$('.slider-reviews__body').slick({
-	centerMode: true,
+
+$('.slider-reviews').slick({
 	slidesToShow: 3,
+	slidesToScroll: 1,
 	arrows: true,
-	nextArrow: '.slider-reviews__btn-',
-	prevArrow: '.slider-reviews__btn-prev'
-});*/
+	variableWidth: true,
+	nextArrow: '.reviews__slider-btn-next',
+	prevArrow: '.reviews__slider-btn-prev',
+	responsive: [
+		{
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+	]
+});

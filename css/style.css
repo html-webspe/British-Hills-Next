@@ -492,7 +492,8 @@ textarea.input {
   background-color: #fff;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  cursor: pointer; }
 
 .teacher-play-btn {
   -webkit-box-shadow: 0 30px 37px 1px rgba(47, 84, 219, 0.51);
@@ -1056,6 +1057,73 @@ textarea.input {
 
 .webp .item-schedule {
   background-image: url(../img/schedule/schedule-item-bg.webp); }
+
+.reviews:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 365px;
+  width: 100%;
+  z-index: -1;
+  background-color: #386adb; }
+
+.reviews-play-btn {
+  width: 48px;
+  height: 48px;
+  background-color: #386adb;
+  border-radius: 50%; }
+  .reviews-play-btn:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -8px;
+    border: 7px solid transparent;
+    border-left: 14px solid #fff; }
+  .reviews-play-btn:before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.43; }
+
+.reviews__body {
+  margin-left: auto;
+  max-width: 1360px; }
+
+.reviews__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -40px;
+  margin-top: -66px; }
+
+.reviews__slider-item {
+  padding: 0 40px; }
+
+.reviews__slider-item-video {
+  width: 330px;
+  height: 396px;
+  padding-bottom: 0; }
+
+.reviews__slider-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.reviews__slider-btn {
+  color: #fff;
+  font-size: 36px;
+  cursor: pointer; }
+
+.reviews__slider-btn-prev {
+  margin-right: 17px; }
 
 @media (max-width: 767.98px) {
   .level {
