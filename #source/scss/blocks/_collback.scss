@@ -32,9 +32,13 @@
    }
 
    input {
-      padding: 28px;
+      padding: 18px;
       color: #bcbcbc !important;
       border-bottom: none;
+
+      @media (min-width:$md2+px) {
+         padding: 28px;
+      }
    }
 
    &__button {
