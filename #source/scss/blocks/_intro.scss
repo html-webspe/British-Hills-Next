@@ -1,0 +1,90 @@
+.intro {
+   background-color: #f5f9fe;
+   min-height: 100vh;
+   background-image: url(../img/intro/intro-bg.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: top right;
+   padding-bottom: 50px;
+
+   &__body {
+      padding-top: 160px;
+   }
+
+   &__content {
+      @media (max-width:$md3+px) {
+         margin-bottom: 30px;
+      }
+   }
+
+   &__heading {
+      color: #01011b;
+      margin-bottom: 18px;
+      @include adaptiv-font(56, 24);
+      font-weight: 900;
+
+      span {
+         color: #ba0a21;
+      }
+
+      @media (min-width:$md2+px) {
+         margin-bottom: 51px;
+      }
+   }
+
+   &__text {
+      color: #01011b;
+      @include adaptiv-font(24, 14);
+      margin-bottom: 15px;
+
+      &.accent {
+         color: #0a0b78;
+         font-weight: 700;
+      }
+
+      @media (min-width:$md2+px) {
+         margin-bottom: 45px;
+      }
+   }
+
+   &__botton {
+      display: flex;
+
+
+      @media (max-width:$md3+px) {
+         align-items: flex-start;
+         flex-direction: column;
+      }
+
+      span {
+
+         border-radius: 38px;
+         border: 1px solid #01011b;
+         text-transform: uppercase;
+         padding: 0px 35px 0px 35px;
+         height: 40px;
+         line-height: 40px;
+
+         @media (max-width:$md3+px) {
+            margin-top: 18px;
+         }
+
+         @media (min-width:$md2+px) {
+            padding: 0px 55px 0px 55px;
+            line-height: 75px;
+            height: 75px;
+            margin-left: 30px;
+         }
+      }
+   }
+
+   &__image {}
+}
+
+.container {}
+
+.accent {}
+
+.btn {}
+
+.btn-red {}

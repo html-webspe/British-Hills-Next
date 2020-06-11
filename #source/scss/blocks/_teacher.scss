@@ -1,0 +1,49 @@
+.teacher-container {
+   max-width: 1011px;
+   margin: 0 auto;
+   width: 100%;
+   padding: 0 15px;
+
+   @media (min-width:$md2+px) {
+      padding: 0 30px;
+   }
+}
+
+.teacher {
+   background-color: #f5f9fe;
+
+   &__title {
+      margin-bottom: 19px;
+   }
+
+   .section-head {
+
+      @media (min-width:$md2+px) {
+         margin-bottom: 86px;
+      }
+   }
+
+   &__video {
+      box-shadow: 0 24px 60px 2px rgba(97, 97, 97, 0.46);
+   }
+
+   &__video-overlay {
+      position: absolute;
+      background: url(../img/teacher/teacher-video-overlay.png) 0 0 no-repeat;
+      background-size: cover;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+   }
+}
+
+.button {
+   margin: 50px;
+   height: 20px;
+   background: tomato;
+   color: #fff;
+   padding: 20px;
+   cursor: pointer;
+}

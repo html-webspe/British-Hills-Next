@@ -1,0 +1,53 @@
+.task-body {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.item-task {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 316px;
+   text-align: center;
+   margin-bottom: 39px;
+
+   &:last-child {
+      margin-bottom: 0;
+   }
+
+   @media (min-width:$md2+px) {
+      margin-bottom: 109px;
+
+   }
+
+   &__icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background-color: #386adb;
+      color: #fff;
+      font-size: 14px;
+      line-height: 42px;
+      margin-bottom: 15px;
+
+      @media (min-width:$md2+px) {
+         width: 74px;
+         height: 74px;
+         line-height: 74px;
+         font-size: 22px;
+         margin-bottom: 35px;
+      }
+   }
+
+   &__text {
+      color: #000000;
+      @include adaptiv-font(24, 14);
+      font-weight: 500;
+      line-height: 1.2;
+
+      @media (min-width:$md2+px) {
+         line-height: 30px;
+      }
+   }
+}

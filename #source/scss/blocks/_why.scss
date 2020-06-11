@@ -1,0 +1,88 @@
+.why {
+   background-color: $blue;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   background-image: url(../img/why-bg.svg);
+   background-position: left bottom;
+   background-size: contain;
+   background-repeat: no-repeat;
+
+
+
+   .section-head {
+      margin: 0;
+
+   }
+
+   .section-title {
+      color: #fff;
+      @include adaptiv-font(48, 24);
+      flex: 0 1 48%;
+      display: flex;
+      align-items: center;
+
+      @media (max-width:$md3+px) {
+         margin-bottom: 30px;
+      }
+   }
+
+   &__row {
+      position: relative;
+      z-index: 3;
+
+      @media (min-width:650px) {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         margin-bottom: 17px;
+
+      }
+   }
+
+   &__column {
+      flex: 0 1 45%;
+      margin-bottom: 29px;
+
+      @media (min-width:$md2+px) {
+         flex: 0 1 23%;
+      }
+   }
+
+   &__item {
+      box-shadow: 0 11px 17px 1px rgba(76, 126, 248, 0.17);
+      border-radius: 10px;
+      background-color: #ffffff;
+      padding: 20px;
+      height: 100%;
+
+      @media (min-width:1200px) {
+         //min-height: 320px;
+         //padding: 20px;
+
+         padding: 35px;
+      }
+   }
+}
+
+
+.item-why {
+   &__title {
+      @include adaptiv-font(29, 18);
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 15px;
+
+      @media (min-width:$md2+px) {
+         line-height: 30px;
+         margin-bottom: 30px;
+      }
+   }
+
+   &__text {
+      @include adaptiv-font(20, 14);
+
+      @media (min-width:$md2+px) {
+         line-height: 30px;
+      }
+   }
+}

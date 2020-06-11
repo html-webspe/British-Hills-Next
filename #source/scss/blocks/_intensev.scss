@@ -1,0 +1,60 @@
+.intense-body {
+
+   //
+   @media (min-width:$md3+px) {
+      display: flex;
+   }
+}
+
+.intense {
+
+   &__title {
+      @media (max-width:$md3+px) {
+         margin-bottom: 28px;
+
+      }
+
+      @media (min-width:$md3+px) {
+         margin-bottom: 78px;
+      }
+   }
+
+   &__column {
+      &-left {
+         flex: 0 1 45%;
+         margin-right: 20px;
+
+         @media (max-width:$md3+px) {
+            margin-bottom: 25px;
+         }
+      }
+
+      &-right {
+         flex: 0 1 55%;
+      }
+   }
+
+   &__item {
+      margin-bottom: 30px;
+      padding-left: 60px;
+      position: relative;
+
+
+      &:before {
+         content: '\f00c';
+         font-family: "FontAwesome";
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 25px;
+         height: 25px;
+         line-height: 25px;
+         margin-top: 5px;
+         border-radius: 50%;
+         background-color: #91eaf2;
+         color: #fff;
+         font-size: 12px;
+         text-align: center;
+      }
+   }
+}

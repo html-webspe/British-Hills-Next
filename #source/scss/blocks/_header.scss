@@ -1,0 +1,75 @@
+//====================================================================================================
+
+.header {
+   position: absolute;
+   top: 15px;
+   left: 0;
+   width: 100%;
+
+   @media (min-width:$md3+px) {
+      top: 50px;
+   }
+
+   &__logo {
+      display: inline-block;
+
+      @media (max-width:$md3+px) {
+         width: 100px;
+      }
+   }
+
+   &__body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+   }
+
+   &__content {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+   }
+
+   &__text {
+      color: #ffffff;
+      @include adaptiv-font(18, 12);
+      line-height: 15px;
+      display: flex;
+      text-align: left;
+      justify-content: flex-start;
+      align-items: center;
+
+      @media (max-width:1200px) {
+         padding: 0px 15px;
+         position: absolute;
+         top: 100%;
+         left: 0;
+         width: 100%;
+         margin-top: 20px;
+         color: #000;
+      }
+
+      @media (min-width:$md3+px) {
+         line-height: 35px;
+      }
+
+      &:before {
+         content: '';
+         background: url(../img/icons/location.svg) 0 0 no-repeat;
+         background-size: contain;
+         width: 22px;
+         height: 34px;
+
+         @media (min-width:$md4+px) {
+            margin-right: 18px;
+            width: 32px;
+            height: 44px;
+         }
+      }
+   }
+
+   &__phone {
+      margin: 0px 30px 0px 39px;
+   }
+}

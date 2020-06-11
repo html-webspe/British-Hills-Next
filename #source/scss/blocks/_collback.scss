@@ -1,0 +1,43 @@
+.callback-container {
+   max-width: 660px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+
+   @media (min-width:$md2+px) {
+      padding: 0 30px;
+
+   }
+}
+
+.callback {
+   background-color: #ece8fe;
+}
+
+.callback {
+
+   &__title {
+      margin-bottom: 30px;
+   }
+}
+
+.callback-form {
+
+   &__input {
+      margin-bottom: 25px;
+
+      &:before {
+         display: none;
+      }
+   }
+
+   input {
+      padding: 28px;
+      color: #bcbcbc !important;
+      border-bottom: none;
+   }
+
+   &__button {
+      margin-top: 70px;
+   }
+}
