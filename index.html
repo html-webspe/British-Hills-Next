@@ -8,12 +8,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="favicon.ico">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 	<script src="https://kit.fontawesome.com/e7a39f0f13.js" crossorigin="anonymous"></script>
-
-	<!-- <meta name="robots" content="noindex, nofollow" /> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 </head>
 
@@ -24,14 +26,14 @@
    <div class='container'>
       <div class="header__body">
          <a href="index.html" class="header__logo">
-            <img src="img/logo.svg" alt="" />
+            <img src="img/logo.svg" alt="Логотип" />
          </a>
 
          <div class="header__content">
             <p class="header__text">Рядом с метро Левобережная, или онлайн, не выходя из дома.</p>
             <a href="tel:+380953149563" class="header__phone phone">+38 (095) 314-95-63</a>
 
-            <a href="#collback" class="btn btn-white pl">Заказать звонок</a>
+            <a href="#callback" class="btn btn-white pl">Заказать звонок</a>
          </div>
       </div>
    </div>
@@ -48,7 +50,7 @@
 
 
             <div class="intro__botton">
-               <a href="#callback" class="btn btn-red">записаться</a>
+               <a href="#callback" class="btn btn-red pl">записаться</a>
                <span>Старт 15 июня</span>
             </div>
          </div>
@@ -267,7 +269,7 @@
 
 
       <div class="section__bottom">
-         <a href="#callback" class="btn btn-red">записаться на модуль</a>
+         <a href="#callback" class="btn btn-red pl">записаться на модуль</a>
       </div>
    </div>
 </section>
@@ -330,7 +332,7 @@
                      <source srcset="img/reviews/reviews-img-02.webp" type="image/webp">
                      <img src="img/skills/reviews-img-02.jpg" alt="" />
                   </picture>
-                  <a href="#video" data-vid="LMldTW76g" class="play-btn reviews-play-btn pl"></a>
+                  <a href="#video" data-vid="u-LMldTW76g" class="play-btn reviews-play-btn pl"></a>
                </div>
             </div>
             <div class="reviews__slider-item">
@@ -391,7 +393,7 @@
 
 
             <div class="item-level__bottom">
-               <a href="#collback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
+               <a href="#callback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
             </div>
 
 
@@ -422,7 +424,7 @@
 
 
             <div class="item-level__bottom">
-               <a href="#collback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
+               <a href="#callback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
             </div>
 
 
@@ -455,7 +457,7 @@
 
 
             <div class="item-level__bottom">
-               <a href="#collback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
+               <a href="#callback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
             </div>
 
 
@@ -491,13 +493,7 @@
 		<div class="footer-body">
 
 			<a href="index.html" class="footer__logo logo">
-
-				<picture>
-					<source srcset="img/logo.webp" type="image/webp">
-					<img src="img/logo.png" alt="" />
-				</picture>
-
-
+				<img src="img/logo-white.svg" alt="Логотип" />
 			</a>
 
 			<div class="social">
@@ -510,7 +506,7 @@
 			</div>
 			<div class="footer__phone">
 				<a href="tel:+380953149563" class="footer__phone phone">+38 (095) 314-95-63</a>
-				<a href="#collback" class="btn btn-white pl">Заказать звонок</a>
+				<a href="#callback" class="btn btn-white pl">Заказать звонок</a>
 			</div>
 		</div>
 	</div>
@@ -519,14 +515,15 @@
 <div id="up" class="up"></div>
 		</div>
 	</div>
-	<div class="popup popup-collback">
+	<div class="popup popup-callback">
 	<div class="popup-table table">
 		<div class="cell">
 			<div class="popup-content">
 				<div class="popup-content__inner">
 					<div class="popup-close"></div>
-					<div class="popup__title">Заполните форму</div>
-					<div class="popup__txt">Оставьте пожалуйста свои контакты и мы с <br> Вам свяжемся</div>
+					<div class="popup__title">Запишитесь на тестирование</div>
+					<div class="popup__txt">Оставьте свои контакты, мы перезвоним.
+						Выберем дату и время для тестирования вашего ребенка.</div>
 					<form class="popup-form form">
 						<div class="form-input">
 							<input autocomplete="off" type="text" data-value="Ваше имя" class="input userName req" />

@@ -20,10 +20,20 @@
       margin-bottom: 19px;
    }
 
+   &__text {
+      @media (max-width:$md3+px) {
+         text-align: left;
+      }
+   }
+
    .section-head {
 
       @media (min-width:$md2+px) {
          margin-bottom: 86px;
+      }
+
+      @media (max-width:$md3+px) {
+         text-align: left;
       }
    }
 

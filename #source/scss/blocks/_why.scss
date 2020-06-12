@@ -20,6 +20,7 @@
       flex: 0 1 48%;
       display: flex;
       align-items: center;
+      text-align: left;
 
       @media (max-width:$md3+px) {
          margin-bottom: 30px;
@@ -79,8 +80,6 @@
    }
 
    &__text {
-      @include adaptiv-font(20, 14);
-
       @media (min-width:$md2+px) {
          line-height: 30px;
       }

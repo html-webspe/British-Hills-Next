@@ -31,9 +31,9 @@ $md4: 576.98;
 body {
   color: #000000;
   font-family: Gilroy;
-  @include adaptiv-font(20, 12);
+  @include adaptiv-font(20, 14);
   font-weight: 500;
-  line-height: 1.3;
+  line-height: 1.5;
 
   &.lock {
     overflow: hidden;

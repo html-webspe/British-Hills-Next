@@ -1,3 +1,9 @@
+.skills {
+   @media (max-width:$md3+px) {
+      padding-bottom: 0;
+   }
+}
+
 .skills-head {
    display: flex;
    margin-bottom: 30px;

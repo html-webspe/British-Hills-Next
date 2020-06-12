@@ -17,6 +17,8 @@
    }
 
    &__phone {
+      margin-right: 8px;
+
       @media (min-width:$md4+px) {
          margin-right: 30px;
       }
