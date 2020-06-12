@@ -6,10 +6,14 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      height: 365px;
+      height: 245px;
       width: 100%;
       z-index: -1;
       background-color: #386adb;
+
+      @media (min-width:$md2+px) {
+         height: 365px;
+      }
    }
 
    .section-title {
@@ -28,6 +32,14 @@
       @media (min-width:$md3+px) {
          margin-left: auto;
          max-width: 70%;
+      }
+
+      @media (min-width:$md3+px) {
+         margin-top: -65px;
+      }
+
+      @media (min-width:$md2+px) {
+         margin-top: -94px;
       }
 
       @media (min-width:1600px) {

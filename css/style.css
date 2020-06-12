@@ -228,7 +228,7 @@ body.ie .ibg img {
   right: 10px;
   width: 40px;
   height: 45px;
-  background: #ff0036;
+  background: #777;
   z-index: 11;
   border-radius: 7px 7px 0px 0px;
   cursor: pointer; }
@@ -372,7 +372,8 @@ textarea.input {
     padding: 0px 35px 0px 35px;
     height: 40px;
     line-height: 40px;
-    font-weight: 900; }
+    font-weight: 900;
+    text-align: center; }
     @media (min-width: 767.98px) {
       .btn-red {
         height: 60px;
@@ -671,7 +672,10 @@ textarea.input {
         font-size: calc(24px + 32*(100vw / 1940)); } }
     .intro__heading span {
       color: #ba0a21; }
-    @media (min-width: 992.98px) {
+    @media (min-width: 767.98px) {
+      .intro__heading {
+        line-height: 1.2; } }
+    @media (min-width: 1350px) {
       .intro__heading {
         margin-bottom: 51px; } }
   .intro__text {
@@ -686,7 +690,7 @@ textarea.input {
     .intro__text.accent {
       color: #0a0b78;
       font-weight: 700; }
-    @media (min-width: 992.98px) {
+    @media (min-width: 1350px) {
       .intro__text {
         margin-bottom: 45px; } }
   .intro__botton {
@@ -701,29 +705,36 @@ textarea.input {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        flex-direction: column; } }
+        flex-direction: column;
+        max-width: 230px; } }
+    @media (max-width: 767.98px) {
+      .intro__botton {
+        max-width: 170px; } }
     .intro__botton span {
       border-radius: 38px;
       border: 1px solid #01011b;
       text-transform: uppercase;
-      padding: 0px 30px 0px 30px;
       height: 40px;
       line-height: 40px; }
       @media (min-width: 767.98px) {
         .intro__botton span {
           height: 60px;
-          line-height: 60px;
-          padding: 0px 52px 0px 52px; } }
+          line-height: 60px; } }
       @media (min-width: 1200px) {
         .intro__botton span {
           height: 75px;
           line-height: 75px; } }
       @media (max-width: 1400px) {
         .intro__botton span {
-          margin-top: 18px; } }
+          margin-top: 18px;
+          width: 100%;
+          text-align: center; } }
       @media (min-width: 1400px) {
         .intro__botton span {
           margin-left: 18px; } }
+    @media (max-width: 1400px) {
+      .intro__botton .btn {
+        width: 100%; } }
 
 .webp .intro {
   background-image: url(../img/intro/intro-bg.webp); }
@@ -931,7 +942,8 @@ textarea.input {
     z-index: 3; }
 
 .webp .teacher__video-overlay {
-  background: url(../img/teacher/teacher-video-overlay.webp) 0 0 no-repeat; }
+  background: url(../img/teacher/teacher-video-overlay.webp) 0 0 no-repeat;
+  background-size: cover; }
 
 .button {
   margin: 50px;
@@ -1082,10 +1094,13 @@ textarea.input {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 365px;
+    height: 245px;
     width: 100%;
     z-index: -1;
     background-color: #386adb; }
+    @media (min-width: 992.98px) {
+      .reviews:after {
+        height: 365px; } }
   .reviews .section-title {
     margin-bottom: 30px; }
   @media (max-width: 767.98px) {
@@ -1095,6 +1110,12 @@ textarea.input {
     .reviews__body {
       margin-left: auto;
       max-width: 70%; } }
+  @media (min-width: 767.98px) {
+    .reviews__body {
+      margin-top: -65px; } }
+  @media (min-width: 992.98px) {
+    .reviews__body {
+      margin-top: -94px; } }
   @media (min-width: 1600px) {
     .reviews__body {
       margin-top: -110px; } }
@@ -1282,7 +1303,10 @@ textarea.input {
     @media (min-width: 767.98px) {
       .item-level__item {
         font-size: calc(14px + 4*(100vw / 1940)); } }
-    @media (min-width: 1200px) {
+    @media (min-width: 992.98px) {
+      .item-level__item {
+        line-height: 1.2; } }
+    @media (min-width: 1600px) {
       .item-level__item {
         line-height: 40px; } }
     .item-level__item:before {
@@ -1461,6 +1485,10 @@ textarea.input {
 @media (max-width: 767.98px) {
   .skills {
     padding-bottom: 0; } }
+
+@media (max-width: 767.98px) {
+  .skills .section-title {
+    text-align: left; } }
 
 .skills-head {
   display: -webkit-box;

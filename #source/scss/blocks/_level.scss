@@ -121,8 +121,11 @@
       margin-bottom: 20px;
 
 
+      @media (min-width:$md2+px) {
+         line-height: 1.2;
+      }
 
-      @media (min-width:1200px) {
+      @media (min-width:1600px) {
          line-height: 40px;
       }
 

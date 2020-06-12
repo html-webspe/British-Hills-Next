@@ -2,6 +2,12 @@
    @media (max-width:$md3+px) {
       padding-bottom: 0;
    }
+
+   .section-title {
+      @media (max-width:$md3+px) {
+         text-align: left;
+      }
+   }
 }
 
 .skills-head {
