@@ -731,7 +731,8 @@ textarea.input {
           text-align: center; } }
       @media (min-width: 1400px) {
         .intro__botton span {
-          margin-left: 18px; } }
+          margin-left: 18px;
+          padding: 0px 60px 0px 60px; } }
     @media (max-width: 1400px) {
       .intro__botton .btn {
         width: 100%; } }
