@@ -1098,6 +1098,13 @@ textarea.input {
     @media (min-width: 992.98px) {
       .reviews:after {
         height: 365px; } }
+  .reviews__head {
+    text-align: left; }
+    .reviews__head .section__text {
+      text-align: left; }
+      @media (min-width: 767.98px) {
+        .reviews__head .section__text span {
+          display: block; } }
   .reviews .section-title {
     margin-bottom: 30px; }
   @media (max-width: 767.98px) {
@@ -1115,7 +1122,7 @@ textarea.input {
       margin-top: -94px; } }
   @media (min-width: 1600px) {
     .reviews__body {
-      margin-top: -110px; } }
+      margin-top: -190px; } }
   .reviews__slider {
     margin-bottom: 30px; }
     @media (min-width: 1200px) {
