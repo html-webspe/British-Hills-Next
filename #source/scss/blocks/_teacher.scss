@@ -12,6 +12,10 @@
 .teacher {
    background-color: #f5f9fe;
 
+   &__body {
+      position: relative;
+   }
+
    &__title {
       margin-bottom: 19px;
    }
