@@ -85,7 +85,8 @@
    &__date {
       color: #000000;
       line-height: 36px;
-      @include adaptiv-font(20, 16);
+      font-weight: bold;
+      @include adaptiv-font(20, 20);
    }
 }
 

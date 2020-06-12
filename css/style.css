@@ -915,15 +915,9 @@ textarea.input {
     position: relative; }
   .teacher__title {
     margin-bottom: 19px; }
-  @media (max-width: 767.98px) {
-    .teacher__text {
-      text-align: left; } }
   @media (min-width: 992.98px) {
     .teacher .section-head {
       margin-bottom: 86px; } }
-  @media (max-width: 767.98px) {
-    .teacher .section-head {
-      text-align: left; } }
   .teacher__video {
     -webkit-box-shadow: 0 7px 19px 2px rgba(97, 97, 97, 0.4);
     box-shadow: 0 7px 19px 2px rgba(97, 97, 97, 0.4); }
@@ -1076,13 +1070,14 @@ textarea.input {
     margin-left: -33px; }
   .item-schedule__date {
     color: #000000;
-    line-height: 36px; }
+    line-height: 36px;
+    font-weight: bold; }
     @media (max-width: 767.98px) {
       .item-schedule__date {
-        font-size: calc(16px + 6.8*((100vw - 320px) / 1940)); } }
+        font-size: calc(20px + 0*((100vw - 320px) / 1940)); } }
     @media (min-width: 767.98px) {
       .item-schedule__date {
-        font-size: calc(16px + 4*(100vw / 1940)); } }
+        font-size: calc(20px + 0*(100vw / 1940)); } }
 
 .webp .item-schedule {
   background-image: url(../img/schedule/schedule-item-bg.webp); }
