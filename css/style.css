@@ -891,12 +891,12 @@ textarea.input {
   @media (min-width: 767.98px) {
     .item-why__title {
       font-size: calc(18px + 11*(100vw / 1940)); } }
-  @media (min-width: 992.98px) {
+  @media (min-width: 1400px) {
     .item-why__title {
       line-height: 30px;
       margin-bottom: 30px; } }
 
-@media (min-width: 992.98px) {
+@media (min-width: 1400px) {
   .item-why__text {
     line-height: 30px; } }
 

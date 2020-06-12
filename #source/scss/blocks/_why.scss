@@ -73,14 +73,15 @@
       line-height: 1.2;
       margin-bottom: 15px;
 
-      @media (min-width:$md2+px) {
+      @media (min-width:1400px) {
          line-height: 30px;
          margin-bottom: 30px;
       }
+
    }
 
    &__text {
-      @media (min-width:$md2+px) {
+      @media (min-width:1400px) {
          line-height: 30px;
       }
    }
