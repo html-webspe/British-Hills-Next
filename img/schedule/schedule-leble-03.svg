@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="b75ffde3-65ff-4761-a8e9-ebaeba35e9db"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 235.5 68.5"
+	 style="enable-background:new 0 0 235.5 68.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#492DD3;}
+	.st2{fill:#34C3EC;}
+	.st3{filter:url(#Adobe_OpacityMaskFilter);}
+	.st4{opacity:0.5;mask:url(#SVGID_2_);}
+	.st5{fill:#007C7C;}
+	.st6{fill:#FFFFFF;}
+	.st7{font-family:'Gilroy-Medium';}
+	.st8{font-size:30px;}
+	.st9{font-family:'Gilroy-Bold';}
+	.st10{font-size:33px;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="38.2246" x2="235.4884" y2="38.2246">
+	<stop  offset="0" style="stop-color:#6743DD"/>
+	<stop  offset="1" style="stop-color:#34C3EC"/>
+</linearGradient>
+<path class="st0" d="M205.2,68.5H0V8h205.2c16.7,0,30.3,13.5,30.3,30.3v0C235.5,54.9,221.9,68.5,205.2,68.5z"/>
+<path class="st1" d="M10.7,0C10.5,0.3,0,8,0,8h10.7V0z"/>
+<g>
+	<g>
+		<ellipse class="st2" cx="200.8" cy="38.8" rx="22.3" ry="22.7"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="178.5" y="16.1" width="44.7" height="45.4">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="178.5" y="16.1" width="44.7" height="45.4" id="SVGID_2_">
+		<g class="st3">
+			
+				<image style="overflow:visible;" width="49" height="50" xlink:href="C70F3855.jpg"  transform="matrix(1 0 0 1 176.2001 13.5508)">
+			</image>
+		</g>
+	</mask>
+	<g class="st4">
+		<ellipse class="st5" cx="200.8" cy="38.8" rx="22.3" ry="22.7"/>
+	</g>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 49.4143 46.7147)" class="st6 st7 st8">Модуль </text>
+</g>
+<text transform="matrix(1 0 0 1 192.2704 50.0718)" class="st6 st9 st10">3</text>
+</svg>

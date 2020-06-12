@@ -1068,7 +1068,8 @@ textarea.input {
       width: 23%; } }
   .item-schedule__icon {
     margin-bottom: 12px;
-    margin-left: -33px; }
+    margin-left: -31px;
+    width: 190px; }
   .item-schedule__date {
     color: #000000;
     line-height: 36px;
