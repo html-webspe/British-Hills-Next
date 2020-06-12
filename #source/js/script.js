@@ -84,24 +84,6 @@ $('.play-btn').click(function (e) {
 
 */
 //====================  <!-- Video -->  ========================//
-$('form').submit(function (e) {
-	e.preventDefault();
-	var $form = $(this);
-	$.ajax({
-		type: "POST",
-		url: 'mail.php',
-		data: $form.serialize(),
-		success: function (data) {
-			if (data == 'Cообщение Передано!') {
-				$form.trigger("reset");
-				window.location.href = "http://thanks.html";
-				popupClose();
-			}
-		}
-	})
-});
-//========================================================//
-
 $('.slider-reviews').slick({
 	slidesToShow: 3,
 	slidesToScroll: 1,
@@ -140,3 +122,21 @@ $('.slider-reviews').slick({
 		}
 	]
 });
+$('form').submit(function (e) {
+	e.preventDefault();
+	var $form = $(this);
+	$.ajax({
+		type: "POST",
+		url: 'mail.php',
+		data: $form.serialize(),
+		success: function (data) {
+			if (data == 'Cообщение Передано!') {
+				$form.trigger("reset");
+				window.location.href = "http://thanks.html";
+				popupClose();
+			}
+		}
+	})
+});
+//========================================================//
+
