@@ -442,10 +442,9 @@ textarea.input {
   @media (min-width: 767.98px) {
     .phone {
       font-size: calc(12px + 6*(100vw / 1940)); } }
-
-@media (max-width: 576.98px) {
-  .header__phone {
-    display: none; } }
+  @media (max-width: 767.98px) {
+    .phone {
+      line-height: 18px; } }
 
 .section {
   position: relative;
@@ -615,6 +614,12 @@ textarea.input {
     -ms-flex-align: center;
     align-items: center;
     margin-left: auto; }
+    @media (max-width: 767.98px) {
+      .header__content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
   .header__text {
     color: #000;
     line-height: 15px;
@@ -628,22 +633,22 @@ textarea.input {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    /*@media (max-width:1200px) {
+         padding: 0px 15px;
+         position: absolute;
+         top: 100%;
+         left: 0;
+         width: 100%;
+         margin-top: 20px;
+         color: #000;
+      }*/ }
     @media (max-width: 767.98px) {
       .header__text {
         font-size: calc(12px + 10.2*((100vw - 320px) / 1940)); } }
     @media (min-width: 767.98px) {
       .header__text {
         font-size: calc(12px + 6*(100vw / 1940)); } }
-    @media (max-width: 1200px) {
-      .header__text {
-        padding: 0px 15px;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        margin-top: 20px;
-        color: #000; } }
     @media (min-width: 767.98px) {
       .header__text {
         line-height: 35px; } }
@@ -659,8 +664,6 @@ textarea.input {
             width: 32px;
             height: 44px;
          }*/ }
-  .header__phone {
-    margin: 0px 30px 0px 39px; }
 
 .phone-block {
   display: -webkit-box;
@@ -670,9 +673,12 @@ textarea.input {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
-  @media (max-width: 576.98px) {
+  @media (max-width: 767.98px) {
     .phone-block {
-      display: none; } }
+      margin-bottom: 15px; } }
+  @media (min-width: 767.98px) {
+    .phone-block {
+      margin: 0px 30px; } }
 
 .intro {
   background-color: #f5f9fe;
@@ -703,7 +709,8 @@ textarea.input {
   .intro__heading {
     color: #01011b;
     margin-bottom: 18px;
-    font-weight: 900; }
+    font-weight: 900;
+    line-height: 1.2; }
     @media (max-width: 767.98px) {
       .intro__heading {
         font-size: calc(24px + 54.4*((100vw - 320px) / 1940)); } }
@@ -712,12 +719,9 @@ textarea.input {
         font-size: calc(24px + 32*(100vw / 1940)); } }
     .intro__heading span {
       color: #ba0a21; }
-    @media (min-width: 767.98px) {
-      .intro__heading {
-        line-height: 1.2; } }
-    @media (min-width: 1350px) {
-      .intro__heading {
-        margin-bottom: 51px; } }
+      @media (max-width: 576.98px) {
+        .intro__heading span {
+          display: block; } }
   .intro__text {
     color: #01011b;
     margin-bottom: 15px; }
@@ -732,12 +736,12 @@ textarea.input {
       font-weight: 700; }
     @media (min-width: 1350px) {
       .intro__text {
-        margin-bottom: 45px; } }
+        margin-bottom: 20px; } }
   .intro__info {
     /*display: flex;
       flex-wrap: wrap;
       */
-    margin-bottom: 10px; }
+    margin-bottom: 19px; }
     .intro__info-item {
       /*flex: 0 1 50%;
          display: flex;
@@ -745,6 +749,9 @@ textarea.input {
       .intro__info-item img {
         width: 19px;
         margin-right: 10px; }
+        @media (max-width: 767.98px) {
+          .intro__info-item img {
+            width: 13px; } }
       .intro__info-item span {
         font-weight: bold;
         margin-right: 5px; }
@@ -1005,6 +1012,17 @@ textarea.input {
       margin-top: -11px;
       border: 12px solid transparent;
       border-left: 14px solid #fff; }
+    @media (max-width: 767.98px) {
+      .teacher .play-btn {
+        width: 45px;
+        height: 45px; }
+        .teacher .play-btn:after {
+          content: ''; }
+        .teacher .play-btn:before {
+          width: 80px;
+          height: 80px;
+          top: -18px;
+          left: -19px; } }
 
 .webp .teacher__video-overlay {
   background: url(../img/teacher/teacher-video-overlay.webp) 0 0 no-repeat;

@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>British Hills</title>
+	<title>Летний интенсивный курс английского для подростков 12-16 лет Productive Teens</title>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<meta name="format-detection" content="telephone=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,7 @@
 	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+
 	<script src="https://kit.fontawesome.com/e7a39f0f13.js" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 </head>
@@ -24,52 +25,242 @@
 			<header class="header">
    <div class='container'>
       <div class="header__body">
-         <a href="/" class="header__logo">
-            <picture>
-               <source srcset="img/logo.webp" type="image/webp">
-               <img src="img/logo.png" alt="" />
-            </picture>
+         <a href="index.html" class="header__logo">
+            <img src="img/Logo.svg" alt="" />
          </a>
 
          <div class="header__content">
-            <p class="header__text">Рядом с метро Левобережная, или онлайн, не выходя из дома.</p>
-            <a href="tel:+380953149563" class="header__phone phone">+38 (095) 314-95-63</a>
 
-            <a href="#collback" class="btn btn-white pl">Заказать звонок</a>
+            <div class="header__phone phone">
+               <div class="phone-block">
+                  <a href="tel:+380981155050" class="header__phone phone">+38 (098) 115-50-50</a>
+                  <a href="tel:+380991739390" class="header__phone phone">+38 (099) 173-93-90</a>
+               </div>
+            </div>
+
+            <a href="#callback" class="btn btn-white pl">Заказать звонок</a>
          </div>
       </div>
    </div>
 </header>
-
-			<section class="intro">
+			<div class="intro">
    <div class='container'>
-      <div class="intro-body">
+      <div class="intro__body">
 
-         <h1 class="title intro__title">Как заговорить <br> на английском с первого занятия <br> без зубрежки</h1>
+         <div class="intro__content">
+            <div class="intro__heading">
+               Первая в Украине коучинг-программа английского для школьников <span>Productive TEENS</span>
+            </div>
+            <p class="intro__text">Летний интенсивный курс c погружением в языковую среду. Теплое отношение к детям!</p>
 
-         <p class="intro__text">Летний курс разговорного английского для взрослых от начального уровня до продвинутого
-            с упором на практику.</p>
-         <p class="intro__text"><span>Старт 15 июня</span></p>
 
-         <a href="#collback" class="btn btn-red intro__btn-red pl">занять место</a>
+            <div class="intro__info">
+               <div class="intro__info-item">
+                  <img src="img/intro/1-02.svg" alt="" />
+                  <span>Стоимость:</span> 1800грн
+               </div>
+               <!--<div class="intro__info-item">
+                  <picture>
+                     <source srcset="img/intro/skills-icon-01.webp" type="image/webp">
+                     <img src="img/intro/skills-icon-01.jpg" alt="" />
+                  </picture>
+                  <span>В группе</span>
+               </div>-->
+               <div class="intro__info-item">
+                  <img src="img/intro/2-02.svg" alt="" />
+                  <span>По времени:</span> 2 недели
+               </div>
+               <!--<div class="intro__info-item">
+                  <picture>
+                     <source srcset="img/intro/skills-icon-02.webp" type="image/webp">
+                     <img src="img/intro/skills-icon-02.jpg" alt="" />
+                  </picture>
+                  <span>Индивидуально</span>
+               </div>-->
+            </div>
+
+            <p class="header__text">Рядом с метро Левобережная, или онлайн.</p>
+
+            <div class="intro__botton">
+               <a href="#callback" class="btn btn-red pl">записаться</a>
+               <span>Старт 27 июля</span>
+            </div>
+         </div>
+
+         <div class="intro__image">
+            <picture>
+               <source srcset="img/intro/intro-img.webp" type="image/webp">
+               <img src="img/intro/intro-img.png" alt="" />
+            </picture>
+         </div>
+
+      </div>
+   </div>
+</div>
+			
+			<section class="section teacher">
+   <div class="teacher-container">
+      <div class="section-head">
+         <h2 class="section-title teacher__title">От преподавателя</h2>
+         <p class="section__text teacher__text">Посмотрите видео (59 секунд)</p>
+      </div>
+
+      <div class="teacher__body">
+         <div class="teacher__video video" data-video='DxiK2ulCcS4'> </div>
+         <div class="teacher__video-overlay"></div>
+         <div class="play-btn teacher-play-btn"></div>
+         <div class="close-video"><i class="fas fa-times"></i></div>
+      </div>
+
+   </div>
+</section>
+			<section class="section task">
+   <div class='container container-sm'>
+      <div class="section-head">
+         <h2 class="section-title">Что в основе обучения</h2>
+      </div>
+
+      <div class="task-body">
+
+         <div class="task-item item-task">
+            <span class="item-task__icon"><i class="fas fa-check"></i></span>
+            <p class="item-task__text">10 занятий в игровой форме по актуальным темам</p>
+         </div>
+         <div class="task-item item-task">
+            <span class="item-task__icon"><i class="fas fa-check"></i></span>
+            <p class="item-task__text">Интенсивная практика разговорного английского</p>
+         </div>
+         <div class="task-item item-task">
+            <span class="item-task__icon"><i class="fas fa-check"></i></span>
+            <p class="item-task__text">Живой английский, который используется во всем мире</p>
+         </div>
+         <div class="task-item item-task">
+            <span class="item-task__icon"><i class="fas fa-check"></i></span>
+            <p class="item-task__text">Изучение лексики и грамматики по фильмам в оригинале</p>
+         </div>
+         <div class="task-item item-task">
+            <span class="item-task__icon"><i class="fas fa-check"></i></span>
+            <p class="item-task__text">Создание и презентация собственных занятных проектов</p>
+         </div>
+         <div class="task-item item-task">
+            <span class="item-task__icon"><i class="fas fa-check"></i></span>
+            <p class="item-task__text">Прикольные домашние задания для закрепления материала</p>
+         </div>
+
       </div>
    </div>
 </section>
-			<section class="sectiom skills">
-   <div class='container'>
+			<section class="section why">
+   <div class="container">
 
-      <div class="skills-head">
-         <div class="skills-head__item">В группе</div>
-         <div class="skills-head__item">Индивидуально</div>
-         <div class="skills-head__item">В паре</div>
+
+      <div class="why__row">
+
+         <h2 class="section-title">Почему стоит записать
+            ребенка на наш интенсив:</h2>
+
+         <div class="why__column">
+            <div class="why__item item-why">
+               <div class="item-why__title">Преподавание для подростков</div>
+               <p class="item-why__text">Сертифицированные преподаватели постоянно совершенствуют методики преподавания
+                  и работы с детьми разных возрастов.</p>
+            </div>
+         </div>
+         <div class="why__column">
+            <div class="why__item item-why">
+               <div class="item-why__title">Атмосферные уроки</div>
+               <p class="item-why__text">Наши преподаватели создают атмосферу, в которой юные студенты обучаются с
+                  удовольствием и чувствуют себя раскованно.
+                  Каждый студент знает что его понимают, поддерживают и верят в его успех.</p>
+            </div>
+         </div>
+         <div class="why__column">
+            <div class="why__item item-why">
+               <div class="item-why__title">Системный подход</div>
+               <p class="item-why__text">Интенсив построен таким образом, что ребенок <strong>гарантировано</strong>
+                  улучшит навыки
+                  своего английского.</p>
+            </div>
+         </div>
+         <div class="why__column">
+            <div class="why__item item-why">
+               <div class="item-why__title">Максимум общения на занятиях</div>
+               <p class="item-why__text">Более 80% разговорной практики с целью разговорится, а занятия с носителями
+                  языка будут полезны для понимания разных акцентов.</p>
+            </div>
+         </div>
+         <div class="why__column">
+            <div class="why__item item-why">
+               <div class="item-why__title">Коучинг от основателя школы</div>
+               <p class="item-why__text">Мы мотивируем детей идти дальше, напоминаем о дедлайнах домашек, добиваемся
+                  результата вместе!
+               </p>
+            </div>
+         </div>
+         <div class="why__column">
+            <div class="why__item item-why">
+               <div class="item-why__title">Постоянная связь с преподавателем</div>
+               <p class="item-why__text">Ответим на все вопросы, оперативно проверим домашние задания.</p>
+            </div>
+         </div>
       </div>
 
+   </div>
+</section>
+
+			<section class="section intense">
+   <div class='container'>
+
+      <div class="intense-body">
+         <div class="intense__column intense__column-left">
+            <div class="intense__image">
+               <picture>
+                  <source srcset="img/intense/intense-img.webp" type="image/webp">
+                  <img src="img/intense/intense-img.png" alt="" />
+               </picture>
+            </div>
+         </div>
+         <div class="intense__column intense__column-right">
+            <h2 class="section-title intense__title">Как проходит интенсив</h2>
+
+            <div class="intense__content">
+               <div class="intense__item">
+                  <b>Перед стартом все студенты проходят тестирование</b> на определение уровня английского языка. Потом
+                  формируются команды с учетом возраста и уровня английского.
+               </div>
+               <div class="intense__item">
+                  <b>Выполнение домашних заданий</b> (20-30 минут) закрепят и улучшат знания, полученные на занятиях.
+                  Наши студенты считают их прикольными!
+               </div>
+               <div class="intense__item">
+                  <b>Дети будут смотреть фильмы,</b> на актуальные темы, обсуждать с преподавателями полезные идиомы и
+                  часто употребляемые фразы. Совместный просмотр фильмов, разбор фраз и выражений, отработка их в
+                  ситуациях — это огромное удовольствие плюс новые знания.
+               </div>
+               <div class="intense__item">
+                  <b>На занятиях юные студенты</b> спорят, задают вопросы, отстаивают свою точку зрения, а главное —
+                  дети идут вперед и достигают вершин.
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </div>
+</section>
+
+			<section class="section skills">
+   <div class='container'>
+      <div class="section-head skills__head">
+         <h2 class="section-title">После интенсива ваш ребенок</h2>
+      </div>
       <div class="skills__body">
          <div class="skills__column skills__column-left">
-            <p class="skills__column-text">Представьте, что вы с легкостью общаетесь на английском языке и понимаете
-               собеседника. <i class="fas fa-check"></i></p>
-            <p class="skills__column-text">Ориентируетесь в путешествиях даже без помощи гида. <i
-                  class="fas fa-check"></i></p>
+            <p class="skills__column-text">Будет смело строить предложения на английском. <i class="fas fa-check"></i>
+            </p>
+            <p class="skills__column-text">Добавит 70+ новых слов в свой словарный запас. <i class="fas fa-check"></i>
+            </p>
+            <p class="skills__column-text">Вернётся в школу с сильным английским. <i class="fas fa-check"></i></p>
+
          </div>
          <div class="skills__column skills__column-center">
             <picture>
@@ -79,405 +270,287 @@
 
          </div>
          <div class="skills__column skills__column-right">
-            <p class="skills__column-text"><i class="fas fa-check"></i>Ведете деловые переговоры с иностранными
-               партнерами, клиентами и заключаете
-               сделки. </p>
-            <div class="skills__column-text"><i class="fas fa-check"></i>И, наконец, болтаете часами с друзьями из
-               других стран без
-               программ-переводчиков.</div>
-         </div>
-      </div>
-
-      <p class="skills__text">Всё это возможно после прохождения курса разговорного английского
-         для взрослых в летней группе школы British Hills.</p>
-   </div>
-</section>
-			<section class="section why">
-   <div class='container'>
-      <div class="section-head">
-         <h2 class="section-title">Почему стоит пройти наш курс разговорного английского:</h2>
-      </div>
-
-      <div class="why__row">
-         <div class="why__column">
-            <div class="why__item item-why">
-               <div class="item-why__title">Удобные форматы обучения на выбор
-               </div>
-               <div class="item-why__text">Всего 5 часов внеделю. В офисе школы в Киеве либо онлайн обучение.</div>
-            </div>
-         </div>
-         <div class="why__column">
-            <div class="why__item item-why">
-               <div class="item-why__title">80% практики, быстрое освоение материала</div>
-               <div class="item-why__text">Говорите на английском с преподавателем, другими учениками, пишите, читайте
-                  во время занятий.</div>
-            </div>
-         </div>
-         <div class="why__column">
-            <div class="why__item item-why">
-               <div class="item-why__title">Собственные учебники</div>
-               <div class="item-why__text">Разработки, аудио и фильмы для разных уровней владения языком</div>
-            </div>
-         </div>
-         <div class="why__column">
-            <div class="why__item item-why">
-               <div class="item-why__title">Практические домашние задания</div>
-               <div class="item-why__text">Для повтора и закрепления полученных результатов</div>
-            </div>
-         </div>
-         <div class="why__column">
-            <div class="why__item item-why">
-               <div class="item-why__title">Дружеская атмосфера</div>
-               <div class="item-why__text">Вас поймут и поддержат, даже если допустите ошибки.</div>
-            </div>
-         </div>
-         <div class="why__column">
-            <div class="why__item item-why">
-               <div class="item-why__title">Постоянная связь с преподавателем</div>
-               <div class="item-why__text">Ответим на все вопросы, оперативно проверим домашние задания.</div>
-            </div>
-         </div>
-      </div>
-
-   </div>
-</section>
-			<section class="section task">
-   <div class='container'>
-      <div class="task-head">
-         <p class="task-head__text">
-            <strong>Наша задача</strong>
-            Как можно качественнее передать практические знания. Поэтому обучение проходит в небольших группах, в паре
-            или индивидуально. Мы нацелены на результат, делаем всё возможное, чтобы преподаватель работал
-            непосредственно с учеником, уделял вам максимум внимания.
-         </p>
-         <a href="#collback" class="btn btn-red pl">занять место</a>
-      </div>
-   </div>
-
-
-   <section class="task__inner">
-      <div class="task__image">
-         <img src="img/task/task-img.svg" alt="">
-      </div>
-      <div class="task__content">
-         <div class="task__body">
-            <div class="task__title">Что в основе обучения</div>
-            <ul class="task__list">
-               <li class="task__item">
-                  <i class="fas fa-check-circle"></i>Каждый урок летнего курса – это практическое
-                  занятие по методу <b>Direct method</b> с акцентом на устную практику. </li>
-               <li class="task__item"><i class="fas fa-check-circle"></i>Благодаря такому подходу вы освоите базу или
-                  повысите уровень владения языком в
-                  кратчайшие сроки. Новички начинают говорить и понимать английский с первого занятия!</li>
-               <li class="task__item"><i class="fas fa-check-circle"></i>
-                  Для курса используем самые актуальные на сегодня учебники и книги, уникальные наработки,
-                  результативность
-                  которых оценили сотни учеников.
-               </li>
-            </ul>
-         </div>
-      </div>
-
-   </section>
-</section>
-			<section class="section result">
-   <div class="container container-sm">
-      <div class="section-head">
-         <h2 class="section-title">Что изменится после прохождения курса</h2>
-      </div>
-      <div class="section-grid grid">
-
-         <div class="grid-item grid-item-mod">
-            <div class="item">
-               <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Вы станете уверенно говорить на английском языке и понимать собеседника.
-               </p>
-            </div>
-         </div>
-
-         <div class="grid-item grid-item-mod">
-            <div class="item">
-               <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Сможете путешествовать без поддержки гидов, задавать вопросы жителям страны,
-                  где отдыхаете, легко делать даже сложные заказы в ресторанах.</p>
-            </div>
-
-         </div>
-         <div class="grid-item grid-item-mod">
-            <div class="item">
-               <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Сможете читать любую литературу, смотреть фильмы и понимать понравившиеся
-                  музыкальные треки на английском</p>
-            </div>
-
-         </div>
-         <div class="grid-item ">
-            <div class="item">
-               <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Получите идеальное времяпровождение вместе с интересными людьми, найдете новую
-                  точку роста в саморазвитии.а</p>
-            </div>
-
-         </div>
-         <div class="grid-item ">
-            <div class="item">
-               <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Повысите свою ценность на работе, в бизнесе, ведь сможете с легкостью
-                  проводить сделки на международном рынке благодаря повышенному уровню английского.</p>
-            </div>
-
-         </div>
-         <div class="grid-item ">
-            <div class="item">
-               <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Это ваш билет для начала карьеры в крупной
-                  компании.</p>
-            </div>
-
-         </div>
-      </div>
-   </div>
-</section>
-			<section class="section teacher">
-   <div class='container'>
-      <div class="section-head">
-         <h2 class="section-title">Кто ведет курс</h2>
-      </div>
-      <div class="teacher__body">
-         <div class="teacher__column teacher__column-left">
-            <p class="teacher__text">
-               В нашей команде 8 преподавателей с международными сертификатами.
+            <p class="skills__column-text"><i class="fas fa-check"></i>Станет уверенней в себе и найдет новых друзей
             </p>
-            <p class="teacher__text">
-               Вместе с учениками добиваемся максимальных результатов, даже если возникают сложности в грамматике и
-               лексике.
+            <p class="skills__column-text"><i class="fas fa-check"></i>Прокачает 3 важнейших гибких навыка (soft
+               skills).</p>
+            <p class="skills__column-text"><i class="fas fa-check"></i>Получит массу удовольствия от процесса обучения!
             </p>
-            <p class="teacher__text">
-               Сами непрерывно совершенствуемся: посещаем семинары, тренинги, изучаем профессиональную литературу.
-            </p>
-            <div class="teacher__button">
-               <a href="#collback" class="btn btn-red pl">записаться на курс</a>
-            </div>
-         </div>
-         <div class="teacher__column teacher-gall">
-            <div class="teacher-gall__item teacher-gall-big">
-               <picture>
-                  <source srcset="img/teacher/teacher-img-01.webp" type="image/webp">
-                  <img src="img/teacher/teacher-img-01.jpg" alt="" />
-               </picture>
-            </div>
-            <div class="teacher-gall__item teacher-gall-sm1">
-               <picture>
-                  <source srcset="img/teacher/teacher-img-02.webp" type="image/webp">
-                  <img src="img/teacher/teacher-img-02.jpg" alt="" />
-               </picture>
-            </div>
-            <div class="teacher-gall__item teacher-gall-sm2">
-               <picture>
-                  <source srcset="img/teacher/teacher-img-03.webp" type="image/webp">
-                  <img src="img/teacher/teacher-img-03.jpg" alt="" />
-               </picture>
-            </div>
-            <div class="teacher-gall__item teacher-gall-sm3">
-               <picture>
-                  <source srcset="img/teacher/teacher-img-04.webp" type="image/webp">
-                  <img src="img/teacher/teacher-img-04.jpg" alt="" />
-               </picture>
-            </div>
-            <div class="teacher-gall__item teacher-gall-sm4">
-               <picture>
-                  <source srcset="img/teacher/teacher-img-05.webp" type="image/webp">
-                  <img src="img/teacher/teacher-img-05.jpg" alt="" />
-               </picture>
-            </div>
          </div>
       </div>
+
    </div>
 </section>
 			<section class="section reviews">
    <div class='container'>
-      <div class="section-head">
+
+      <div class="section-head reviews__head">
          <h2 class="section-title">Отзывы</h2>
+         <p class="section__text">Посмотрите что говорят <span>наши студенты и родители</span> </p>
       </div>
 
-      <div class="reviews__inner">
-         <div class="reviews__row">
+   </div>
+   <div class="reviews__body">
+      <div class="reviews__content">
+         <div class="reviews__slider slider-reviews ">
+            <div class="reviews__slider-item reviews__slider-item-text">
+               <a class="reviews__slider-item-link"
+                  href="https://www.facebook.com/profile.php?id=100008108880017&eid=ARAbUbOaLVse60vU33WC6mwOslvrqKcAQQ06gQdjPNmN8_mkOrUU8X8_ELgzR-7D2gDXNSL0bT0RG3Np&hc_ref=ARRYUjPzQ738jOSNNjFIXSTA9YaOKDTb-FXsj-mU7fSd980JSZmEpt3UgVn3cKF5aIY&ref=nf_target">
+                  <div class="reviews__slider-head">
+                     <div class="reviews__foto">
+                        <picture>
+                           <source srcset="img/reviews/reviews-foto-01.webp" type="image/webp">
+                           <img src="img/reviews/reviews-foto-01.png" alt="" />
+                        </picture>
+                        <div class="social-icon"></div>
+                     </div>
+                     <span class="reviews__name">Galina Ivanova</span>
+                  </div>
+                  <p class="reviews__text">
+                     Мы с British Hills уже 8 лет. Уровень обучения шикарный. Прекрасный подбор преподавателей
+                     Рекомендую))
 
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
-                  <picture>
-                     <source srcset="img/reviews/reviews-img-01.webp" type="image/webp">
-                     <img src="img/reviews/reviews-img-01.jpg" alt="" />
-                  </picture>
-               </div>
+                  </p>
+               </a>
+            </div>
+            <div class="reviews__slider-item reviews__slider-item-text">
+               <a class="reviews__slider-item-link" href="">
+                  <div class="reviews__slider-head">
+                     <div class="reviews__foto">
+                        <picture>
+                           <source srcset="img/reviews/reviews-foto-03.webp" type="image/webp">
+                           <img src="img/reviews/reviews-foto-03.png" alt="" />
+                        </picture>
+                        <div class="reviews__social"></div>
+                     </div>
+                     <span class="reviews__name">Евгения Николенко</span>
+                  </div>
+                  <p id="scroll" class="reviews__text" style="position: relative;">
+                     Мой сын 11 летний занимался год в этой школе. Огромная благодарность коллективу и руководителю
+                     Любови . Очень щепетильный подход к обучению, контроль знаний, постоянное тестирование пройденного
+                     материала, детальный подход к особенностям самих детей. Но что самое главное , что сделало прорыв
+                     для моего сына- это создание руководителем такой системы, когда ребенок полностью самостоятельно
+                     погружается в выполнение заданий без участия и контроля родителей и ему это приносит удовольствие.
+                     Плюс летние интенсивы и индивидуальные занятия. Продолжаем дальше с вами и только с вами. Очень
+                     рекомендую! От всей души. Очень довольны мы, родители и сын.
 
-               <div class="reviews__decor"><span></span></div>
+                     Отличные курсы, сын прошел полный курс (5 лет) и подготовку к ЗНО. По ЗНО получил 191 балл и
+                     абсолютно спокойно поступил в КПИ на программирование
+
+                  </p>
+               </a>
+            </div>
+            <div class="reviews__slider-item reviews__slider-item-text">
+               <a class="reviews__slider-item-link"
+                  href="https://www.facebook.com/profile.php?id=100010428679136&eid=ARCpFB1Xp1B-P5koRusP-h89ACB9Yrb5284NN_clUVMxEDvTTf2k7Q7CNA-BDYpvIpFZ06orR2A6EkFy&hc_ref=ART9nC0XFdPtlceuDzz-nivLVN9oxfnz3CTPWrBT6FprJEW7O2wAsJS5aO1XUw2EHsw&ref=nf_target">
+                  <div class="reviews__slider-head">
+                     <div class="reviews__foto">
+                        <picture>
+                           <source srcset="img/reviews/reviews-foto-02.webp" type="image/webp">
+                           <img src="img/reviews/reviews-foto-02.png" alt="" />
+                        </picture>
+                        <div class="social-icon"></div>
+                     </div>
+                     <span class="reviews__name">Ирина Кременская</span>
+                  </div>
+                  <p class="reviews__text">
+                     Мой ребёнок любит учить английский! Есть результат! Спасибо British Hills! Рекомендую!
+                  </p>
+               </a>
             </div>
 
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
-                  <picture>
-                     <source srcset="img/reviews/reviews-img-02.webp" type="image/webp">
-                     <img src="img/reviews/reviews-img-02.jpg" alt="" />
-                  </picture>
-               </div>
-
-               <div class="reviews__decor"><span></span></div>
-            </div>
-
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
-
-                  <picture>
-                     <source srcset="img/reviews/reviews-img-03.webp" type="image/webp">
-                     <img src="img/reviews/reviews-img-03.jpg" alt="" />
-                  </picture>
-               </div>
-
-               <div class="reviews__decor"><span></span></div>
-            </div>
-
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
-
-                  <picture>
-                     <source srcset="img/reviews/reviews-img-04.webp" type="image/webp">
-                     <img src="img/reviews/reviews-img-04.jpg" alt="" />
-                  </picture>
-               </div>
-
-               <div class="reviews__decor"><span></span></div>
-            </div>
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
+            <div class="reviews__slider-item">
+               <div class="reviews__slider-item-video">
                   <picture>
                      <source srcset="img/reviews/reviews-img-05.webp" type="image/webp">
                      <img src="img/reviews/reviews-img-05.jpg" alt="" />
                   </picture>
                </div>
-
-               <div class="reviews__decor"><span></span></div>
             </div>
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
+            <div class="reviews__slider-item">
+               <div class="reviews__slider-item-video">
                   <picture>
-                     <source srcset="img/reviews/reviews-img-06.webp" type="image/webp">
-                     <img src="img/reviews/reviews-img-06.jpg" alt="" />
+                     <source srcset="img/reviews/reviews-img-04.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-04.jpg" alt="" />
                   </picture>
+                  <a href="#video" data-vid="vkoTgmwXtzc" class="play-btn reviews-play-btn pl"></a>
                </div>
+            </div>
+            <div class="reviews__slider-item">
+               <div class="reviews__slider-item-video" data-video=''>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-03.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-03.jpg" alt="" />
+                  </picture>
+                  <a href="#video" data-vid="iz6HHnGZBPg" class="play-btn reviews-play-btn pl"></a>
+               </div>
+            </div>
+            <div class="reviews__slider-item">
 
-               <div class="reviews__decor"><span></span></div>
+               <div class="reviews__slider-item-video">
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-02.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-02.jpg" alt="" />
+                  </picture>
+                  <a href="#video" data-vid="u-LMldTW76g" class="play-btn reviews-play-btn pl"></a>
+               </div>
+            </div>
+            <div class="reviews__slider-item">
+               <div class="reviews__slider-item-video">
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-01.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-01.jpg" alt="" />
+                  </picture>
+                  <a href="#video" data-vid="U3y6U1JLMc8" class="play-btn reviews-play-btn pl"></a>
+               </div>
+            </div>
+         </div>
+         <div class="reviews__slider-control">
+            <div class="reviews__slider-btn reviews__slider-btn-prev"><i class="fas fa-long-arrow-alt-left"></i>
+            </div>
+            <div class="reviews__slider-btn reviews__slider-btn-next"><i class="fas fa-long-arrow-alt-right"></i>
             </div>
          </div>
       </div>
-
-
-
    </div>
 </section>
 			<section class="section level">
-   <div class='container'>
+   <div class='container container-sm'>
       <div class="section-head">
-         <h2 class="section-title">Выберите свой уровень</h2>
+         <h2 class="section-title">Что входит в стоимость?</h2>
       </div>
 
       <div class="level-row">
-         <div class="level-item item-level">
+         <!--<div class="level-item item-level item-level__left">
+
+
             <div class="item-level__head">
-               <span>Starter</span>
+               <span class="item-level__head-icon">
+                  <img src="img/level/level-icon-head-01.svg" alt="" />
+               </span>
+               <div class="item-level__head-content">
+                  <span class="item-level__head-name">Basic</span>
+                  <span class="item-level__price">1500 грн</span>
+               </div>
             </div>
+
+
             <div class="item-level__body">
                <ul class="item-level__list">
-                  <li class="item-level__item">24 занятия</li>
-                  <li class="item-level__item">8 недель</li>
-                  <li class="item-level__item">3 занятия в неделю по 100 мин</li>
-                  <li class="item-level__item">Чат-поддержка преподавателя</li>
+                  <li class="item-level__item">10 групповых занятий с преподавателями</li>
+                  <li class="item-level__item">Доступ ко всем материалам курса</li>
+                  <li class="item-level__item">Участие в подготовке и презентации проектов</li>
+                  <li class="item-level__item">Закрытый чат для участников группы</li>
                </ul>
-               <div class="item-level__price">
-                  <span class="item-level__price-new">4100</span>
-                  <span class="item-level__price-old">5100</span>
-               </div>
-               <div class="item-level__button">
-                  <a href="#collback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
-               </div>
+            </div>
 
+
+            <div class="item-level__bottom">
+               <a href="#callback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
             </div>
-         </div>
-         <div class="level-item item-level item-level-center">
+
+
+         </div>-->
+         <div class="level-item item-level item-level__center">
+
             <div class="item-level__head">
-               <span>Elementary 1</span>
-               <span>Elementary 2</span>
-               <span>Pre Intermediate 1</span>
-               <span>Pre Intermediate 2</span>
+               <!--<span class="item-level__head-icon">
+                  <img src="img/level/level-icon-head-02.svg" alt="" />
+               </span>-->
+               <div class="item-level__head-content">
+                  <!--<span class="item-level__head-name">Complete</span>-->
+                  <span class="item-level__price">1800 грн</span>
+               </div>
             </div>
+
+
             <div class="item-level__body">
                <ul class="item-level__list">
-                  <li class="item-level__item">24 занятия</li>
-                  <li class="item-level__item">8 недель</li>
-                  <li class="item-level__item">3 занятия в неделю по 100 мин</li>
-                  <li class="item-level__item">Чат-поддержка преподавателя</li>
+                  <li class="item-level__item">10 групповых занятий с преподавателями</li>
+                  <li class="item-level__item">Доступ ко всем материалам курса</li>
+                  <li class="item-level__item">Участие в подготовке и презентации проектов</li>
+                  <li class="item-level__item">Закрытый чат для участников группы</li>
+                  <li class="item-level__item">2 дополнительных занятия в группе с native speaker</li>
                </ul>
-               <div class="item-level__price">
-                  <span class="item-level__price-new">4800</span>
-                  <span class="item-level__price-old">5800</span>
-               </div>
-
-
-               <div class="item-level__button">
-                  <a href="#collback" class="btn btn-white item-level__btn pl">Записаться</a>
-               </div>
-
             </div>
+
+
+            <div class="item-level__bottom">
+               <a href="#callback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
+            </div>
+
+
          </div>
-         <div class="level-item item-level item-level-right">
+
+         <!--
+         <div class="level-item item-level item-level__right">
+
             <div class="item-level__head">
-               <span>Intermediate 1</span>
-               <span>Intermediate 2</span>
-               <span>Upper Intermediate</span>
+               <span class="item-level__head-icon">
+                  <img src="img/level/level-icon-head-03.svg" alt="" />
+               </span>
+               <div class="item-level__head-content">
+                  <span class="item-level__head-name">Complete +</span>
+                  <span class="item-level__price">2500 грн</span>
+               </div>
             </div>
+
+
             <div class="item-level__body">
                <ul class="item-level__list">
-                  <li class="item-level__item">30 занятия</li>
-                  <li class="item-level__item">3 месяца</li>
-                  <li class="item-level__item">3 занятия в неделю по 100 мин</li>
-                  <li class="item-level__item">Чат-поддержка преподавателя</li>
+                  <li class="item-level__item">10 групповых занятий с преподавателями</li>
+                  <li class="item-level__item">Доступ ко всем материалам курса</li>
+                  <li class="item-level__item">Участие в подготовке и презентации проектов</li>
+                  <li class="item-level__item">Закрытый чат для участников группы</li>
+                  <li class="item-level__item">2 дополнительных занятия в группе с native speaker</li>
+                  <li class="item-level__item">Поддержка куратора группы на протяжении всего курса</li>
+                  <li class="item-level__item">2 дополнительных занятия в группе с native speaker</li>
                </ul>
-               <div class="item-level__price">
-                  <span class="item-level__price-new">5800</span>
-                  <span class="item-level__price-old">6800</span>
-               </div>
-
-               <div class="item-level__button">
-                  <a href="#collback" class="btn btn-white item-level__btn item-level__btn-right pl">Записаться</a>
-               </div>
             </div>
-         </div>
-      </div>
 
-      <p class="level__text">Скидка 1000 грн. действительна на момент формирования группы до начала курса. Успейте
-         забронировать место и повысить уровень английского в ближайший месяц. Начните не только понимать английский, но
-         и свободно говорить и думать на нём.</p>
 
-      <div class="level__button">
-         <a href="#collback" class="btn btn-red pl">записаться на курс</a>
+            <div class="item-level__bottom">
+               <a href="#callback" class="btn btn-white item-level__btn item-level__btn-left pl">Записаться</a>
+            </div>
+
+
+         </div>-->
       </div>
    </div>
 </section>
+			<div class="section callback">
+   <div class='callback-container'>
+      <div class="section-head">
+         <h2 class="section-title callback__title">Запись на тестирование</h2>
+         <p class="section__text callback__text">Оставьте свой номер телефона, мы перезвоним.
+            Согласуем детали для тестирования вашего ребенка.
+         </p>
+      </div>
+      <form action="" class="form callback-form">
+         <div class="form-input callback-form__input">
+            <input autocomplete="off" type="text" name="form[]" data-value="Имя" class="input" />
+         </div>
+         <div class="form-input callback-form__input">
+            <input autocomplete="off" type="tel" name="form[]" data-value="Телефон" class="input phone" />
+         </div>
+         <div class="form-button callback-form__button">
+            <button type="submit" class="form__btn btn btn-red">Отправить</button>
+         </div>
+      </form>
+
+   </div>
+</div>
 
 			<footer class="footer">
 	<div class='container'>
 		<div class="footer-body">
 
-			<a href="/" class="footer__logo logo">
-
-				<picture>
-					<source srcset="img/logo.webp" type="image/webp">
-					<img src="img/logo.png" alt="" />
-				</picture>
-
-
+			<a href="index.html" class="footer__logo logo">
+				<img src="img/logo-white.svg" alt="Логотип" />
 			</a>
-
+			<p class="footer__adress">
+				ул. Евгения Сверстюка 23, офис 602, 6-ой этаж
+			</p>
 			<div class="social">
 				<ul class="social__list">
 					<li class="social__item"><a href="https://www.facebook.com/schoolbritishhills"
@@ -487,22 +560,28 @@
 				</ul>
 			</div>
 			<div class="footer__phone">
-				<a href="tel:+380953149563" class="footer__phone phone">+38 (095) 314-95-63</a>
-				<a href="#collback" class="btn btn-white pl">Заказать звонок</a>
+				<div class="phone-block">
+					<a href="tel:+380981155050" class="footer__phone phone">+38 (098) 115-50-50</a>
+					<a href="tel:+380991739390" class="footer__phone phone">+38 (099) 173-93-90</a>
+				</div>
+				<a href="#callback" class="btn btn-white pl">Заказать звонок</a>
 			</div>
 		</div>
 	</div>
 </footer>
 
 <div id="up" class="up"></div>
-			<div class="popup popup-collback">
+		</div>
+	</div>
+	<div class="popup popup-callback">
 	<div class="popup-table table">
 		<div class="cell">
 			<div class="popup-content">
 				<div class="popup-content__inner">
 					<div class="popup-close"></div>
-					<div class="popup__title">Заполните форму</div>
-					<div class="popup__txt">Оставьте пожалуйста свои контакты и мы с <br> Вам свяжемся</div>
+					<div class="popup__title">Запишитесь на тестирование</div>
+					<div class="popup__txt">Оставьте свои контакты, мы перезвоним.
+						Выберем дату и время для тестирования вашего ребенка.</div>
 					<form class="popup-form form">
 						<div class="form-input">
 							<input autocomplete="off" type="text" data-value="Ваше имя" class="input userName req" />
@@ -519,8 +598,16 @@
 		</div>
 	</div>
 </div>
+<div class="popup popup-video">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-body">
+				<div class="popup-close"><i class="fas fa-times"></i></div>
+				<div class="popup-video__value"></div>
+			</div>
 		</div>
 	</div>
+</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="js/vendors.js"></script>
 <script src="js/main.js"></script>

@@ -34,17 +34,21 @@
       margin-bottom: 18px;
       @include adaptiv-font(56, 24);
       font-weight: 900;
+      line-height: 1.2;
 
       span {
          color: #ba0a21;
+
+         @media (max-width:$md4+px) {
+            display: block;
+         }
       }
 
-      @media (min-width:$md3+px) {
-         line-height: 1.2;
-      }
+      @media (min-width:$md3+px) {}
 
       @media (min-width:1350px) {
-         margin-bottom: 51px;
+        
+        
       }
    }
 
@@ -59,7 +63,7 @@
       }
 
       @media (min-width:1350px) {
-         margin-bottom: 45px;
+         margin-bottom: 20px;
       }
    }
 
@@ -67,7 +71,8 @@
       /*display: flex;
       flex-wrap: wrap;
       */
-      margin-bottom: 10px;
+      margin-bottom: 19px;
+
 
       &-item {
          /*flex: 0 1 50%;
@@ -77,6 +82,10 @@
          img {
             width: 19px;
             margin-right: 10px;
+
+            @media (max-width:$md3+px) {
+               width: 13px;
+            }
          }
 
          span {
