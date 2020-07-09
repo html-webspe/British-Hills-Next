@@ -17,6 +17,15 @@
    }
 
    &__phone {
+      //margin-right: 8px;
+      display: flex;
+      /*
+      @media (min-width:$md4+px) {
+         margin-right: 30px;
+      }*/
+   }
+
+   .phone-block {
       margin-right: 8px;
 
       @media (min-width:$md4+px) {

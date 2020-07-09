@@ -47,6 +47,25 @@
       height: 100%;
       z-index: 3;
    }
+
+   .play-btn {
+      width: 92px;
+      height: 92px;
+
+      &:before {
+         width: 150px;
+         height: 150px;
+         top: -29px;
+         left: -29px;
+      }
+
+      &:after {
+         margin-left: -6px;
+         margin-top: -11px;
+         border: 12px solid transparent;
+         border-left: 14px solid #fff;
+      }
+   }
 }
 
 .webp .teacher__video-overlay {

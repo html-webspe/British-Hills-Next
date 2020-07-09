@@ -63,6 +63,33 @@
       }
    }
 
+   &__info {
+      /*display: flex;
+      flex-wrap: wrap;
+      */
+      margin-bottom: 50px;
+
+      &-item {
+         /*flex: 0 1 50%;
+         display: flex;
+         align-items: center;*/
+
+         img {
+            width: 19px;
+            margin-right: 10px;
+         }
+
+         span {
+            font-weight: bold;
+            margin-right: 5px;
+         }
+
+         picture {
+            line-height: 19px;
+         }
+      }
+   }
+
    &__botton {
       display: flex;
 

@@ -1,6 +1,5 @@
 .slick-slider {
-  position: relative;
-  margin: 0 -50px; }
+  position: relative; }
   .slick-slider .slick-track,
   .slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);

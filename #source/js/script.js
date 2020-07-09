@@ -84,40 +84,17 @@ $('.play-btn').click(function (e) {
 
 */
 //====================  <!-- Video -->  ========================//
-$('.slider-reviews').slick({
-	slidesToShow: 3,
+$('.tt').slick({
+	slidesToShow: 4,
 	slidesToScroll: 1,
-	arrows: true,
 	variableWidth: true,
 	nextArrow: '.reviews__slider-btn-next',
 	prevArrow: '.reviews__slider-btn-prev',
 	responsive: [
 		{
-			breakpoint: 1700,
-			settings: {
-				slidesToShow: 3,
-				variableWidth: true,
-			}
-		},
-		{
-			breakpoint: 986,
-			settings: {
-				slidesToShow: 3,
-				variableWidth: false,
-			}
-		},
-		{
-			breakpoint: 600,
-			settings: {
-				slidesToShow: 2,
-				variableWidth: false,
-			}
-		},
-		{
 			breakpoint: 480,
 			settings: {
-				slidesToShow: 1,
-				variableWidth: false,
+				slidesToShow: 1
 			}
 		}
 	]

@@ -27,6 +27,12 @@
       padding: 150px 0;
    }
 
+   &.teacher {
+      @media (min-width:1400px) {
+         padding: 0px 50px 150px 0px;
+      }
+   }
+
    &-head {
       text-align: center;
       margin-bottom: 35px;
@@ -71,11 +77,37 @@
    position: absolute;
    top: 50%;
    left: 50%;
-   background-color: #fff;
    transform: translate(-50%, -50%);
    cursor: pointer;
+   background-color: #386adb;
+   border-radius: 50%;
+   z-index: 3;
+
+   &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -5px;
+      margin-top: -8px;
+      border: 7px solid transparent;
+      border-left: 14px solid #fff;
+   }
+
+   &:before {
+      content: '';
+      position: absolute;
+      top: -15px;
+      left: -15px;
+      width: 79px;
+      height: 79px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      opacity: 0.43;
+   }
 }
 
+/*
 .teacher-play-btn {
    box-shadow: 0 30px 37px 1px rgba(47, 84, 219, 0.51);
    width: 50px;
@@ -106,7 +138,7 @@
       }
    }
 }
-
+*/
 .close-video {
    position: absolute;
    top: 0;
