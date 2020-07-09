@@ -616,7 +616,7 @@ textarea.input {
     align-items: center;
     margin-left: auto; }
   .header__text {
-    color: #ffffff;
+    color: #000;
     line-height: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -627,7 +627,8 @@ textarea.input {
     justify-content: flex-start;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    margin-bottom: 20px; }
     @media (max-width: 767.98px) {
       .header__text {
         font-size: calc(12px + 10.2*((100vw - 320px) / 1940)); } }
@@ -651,12 +652,13 @@ textarea.input {
       background: url(../img/icons/location.svg) 0 0 no-repeat;
       background-size: contain;
       width: 22px;
-      height: 34px; }
-      @media (min-width: 576.98px) {
-        .header__text:before {
-          margin-right: 18px;
-          width: 32px;
-          height: 44px; } }
+      height: 34px;
+      margin-right: 10px;
+      /*@media (min-width:$md4+px) {
+            margin-right: 18px;
+            width: 32px;
+            height: 44px;
+         }*/ }
   .header__phone {
     margin: 0px 30px 0px 39px; }
 
@@ -735,7 +737,7 @@ textarea.input {
     /*display: flex;
       flex-wrap: wrap;
       */
-    margin-bottom: 50px; }
+    margin-bottom: 10px; }
     .intro__info-item {
       /*flex: 0 1 50%;
          display: flex;
