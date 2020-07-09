@@ -84,7 +84,12 @@ $('.play-btn').click(function (e) {
 
 */
 //====================  <!-- Video -->  ========================//
-$('.tt').slick({
+$("#scroll").niceScroll({
+	cursorcolor: "#777",
+	cursoropacitymin: 1
+});
+
+$('.reviews__slider').slick({
 	slidesToShow: 4,
 	slidesToScroll: 1,
 	variableWidth: true,

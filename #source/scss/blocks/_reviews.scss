@@ -208,9 +208,10 @@
 
    &__text {
       color: #000;
-
+      position: relative;
       max-height: 210px;
-      overflow-y: scroll !important;
+      padding-right: 10px;
+      //overflow-y: scroll !important;
 
       @media (min-width:$md2+px) {
          max-height: 256px;

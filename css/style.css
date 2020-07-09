@@ -1316,8 +1316,9 @@ textarea.input {
     color: #000; }
   .reviews__text {
     color: #000;
+    position: relative;
     max-height: 210px;
-    overflow-y: scroll !important; }
+    padding-right: 10px; }
     @media (min-width: 992.98px) {
       .reviews__text {
         max-height: 256px; } }
